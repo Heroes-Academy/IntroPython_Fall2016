@@ -1,12 +1,12 @@
-.. Resource master file for the Heroes Academy Summer Intro Python course
+.. Resource master file for the Heroes Academy Fall Intro Python course
 .. author: brian mcmahan, tim meo
 .. date: 7/2016
 
-Heroes Academy: Introduction to Python, Summer 2016
+Heroes Academy: Introduction to Python, Fall 2016
 ===============================================
 
 Course Description
-=====================
+==================
 Computing technology has integrated itself into every aspect of our lives.  In this course, we will tour through one of the most popular programming languages: Python.  Python is used at companies like Google, Microsoft, Facebook, Amazon, and Apple to accomplish a huge variety of tasks.  Its versatility, similarity to the English language, and large community support make it one of the best programming languages for learning.
 
 This course will cover the basics of problem solving with Python.  We will cover standard data types, loops, conditional statements, functions, and classes.  Students will not only learn the basics of syntax, but also how to solve problems with programming.  The course will prepare students to move forward to more complex topics at Heroes Academy, or dive into self-taught studies at home.
@@ -36,6 +36,8 @@ __ HeroesSite_
    :caption: Course Contents
 
    day1
+
+..
    day2
    day3
    day4
@@ -44,10 +46,6 @@ __ HeroesSite_
    day7
    day8
    day9
-..
-   week8
-   week9
-   week10
 
 
 Indices and tables

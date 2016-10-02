@@ -1,20 +1,15 @@
 Day 1: Hello World
 ===================
 
-Reminder: if you have any difficulty, email me at bmcmahan@njgifted.org with questions!  Failing is good.  Failing silently is bad. 
+Reminder: if you have any difficulty, email me at bmcmahan@njgifted.org with questions!
+**Failing is good.  Failing silently is bad.**
 
 Summary
 -------
 
 Our first lesson!
 
-We made excellent progress through all of the material.  
-In fact, we even got ahead of where I thought we'd be.  
-Not only did we cover the basics of Python's variables, but we got started on strings!
-The review for strings will be left on the day 2 page. 
-
-When you practice, you should be trying to identify how code can break!  
-Knowing how things break is the best way to make them not break. 
+I will post a summary here after the class.
 
 
 Review
@@ -29,18 +24,18 @@ Values are data - things like 25, "Hello", and 3.14159. Variables are just conta
 
 (Remember - you can tell if a variable is a String if it's surrounded by '' or "")
 
-There are 4 main types of data in Python: 
+There are 4 main types of data in Python:
 
 - Integers (numbers with no decimal place)
 - Floats (numbers with a decimal place)
 - Strings (text, surrounded by quotes)
 - Booleans (True or False)
 
-We learned three commands: 
+We learned three commands:
 
 - print(), which prints out whatever you put in the parentheses
 - type(), which evaluates the type (integer, float, string, boolean) of whatever is in the parentheses
-- len(), which evaluates the length of whatever is in the parentheses. For example, len("Hello!") = 6 
+- len(), which evaluates the length of whatever is in the parentheses. For example, len("Hello!") = 6
 
 We also previewed some of Week 2's material, mostly just the following simple mathematical operators:
 
@@ -59,20 +54,13 @@ We went over these toward the end of class, so we'll review them at the beginnin
 Homework
 --------
 
-Main Homework Item
-^^^^^^^^^^^^^^^^^^
+1. Get Python installed and working on your home computer.  Instructions on how to do so are located in the "Installing Python" section on the left.
 
-Get Python installed and working on your home computer.  Instructions on how to do so are located in the "Installing Python" section on the left.
+2. Open up the interactive shell (iPython console or iPython QT console), play around like we did in class!
 
-Open up the interactive shell (iPython console or iPython QT console), play around like we did in class!
+3. Use Python like a calculator!  Write down the numbers or equation you use and why.
 
-Recommended Homework Item
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Use a math equation from your school work, or any math equation you can find on the internet, and turn it into python code. 
-
-Make at least one mistake that creates an error.  Write it down how you created it.  Bring it to class tomorrow. 
-
+4. Make at least one mistake that creates an error.  Write it down how you created it.  If you can, explain why it happened.
 
 Lecture Slides
 --------------
