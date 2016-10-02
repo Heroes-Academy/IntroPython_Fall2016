@@ -9,10 +9,7 @@ HEROES Academy is an intellectually stimulating environment where students’ pe
 When does this course meet?
 ---------------------------
 
-The Intro to Python course will meet from 2:00 pm to 4:00 pm on the following days: 
-
-- July 11 through July 15
-- July 18 through July 22
+The Intro to Python course will meet from 11:20 to 1:20 starting October 2nd.
 
 How do I register for this course?
 ----------------------------------
