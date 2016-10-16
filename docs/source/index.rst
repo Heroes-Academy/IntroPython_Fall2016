@@ -37,6 +37,7 @@ __ HeroesSite_
 
    week1
    week2
+   week3
 
 ..
    day3
