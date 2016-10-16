@@ -6,32 +6,13 @@ Summary
 
 To come after class.
 
-
-In-Class and Homework Exercises
--------------------------------
-
-1. Turtle Designs
-	- Draw a face
-	- Draw your initials
-	- Draw something creative
-		+ The class will vote tomorrow on who's is the best!
-2. Inputs and Menus!  
-	- Make a userid
-	- a basic menu with a joke
-	- a two-level menu with two jokes!
-	- Make your own menu
-3. Break things!
-	- Make reproducible code! 
-	- This means making the python file and creates the error
-	
-
 Review
 ------
 
 Booleans
 ********
-Booleans are variables that can have a value of ``True`` or ``False``. 
-You can set Boolean variables in code with something like ``x = True``, or you can use **comparison operators.** 
+Booleans are variables that can have a value of ``True`` or ``False``.
+You can set Boolean variables in code with something like ``x = True``, or you can use **comparison operators.**
 
 These are the comparison operators we discussed:
 
@@ -42,13 +23,13 @@ These are the comparison operators we discussed:
 - == equal to (remember, in Python, "equal to" uses two equals signs, because one equals sign is just used for making a variable)
 - != not equal to
 
-Comparison operators compare the values of two different variables, and will evaluate to either True or False. 
-For example, ``5 > 3`` will evaluate to ``True``, but ``10 == 9`` will evaluate to ``False``. 
+Comparison operators compare the values of two different variables, and will evaluate to either True or False.
+For example, ``5 > 3`` will evaluate to ``True``, but ``10 == 9`` will evaluate to ``False``.
 You can use these to make Boolean variables as well.
 
-Booleans can also be combined using the ``and`` and ``or`` keywords. 
-If ``x`` and ``y`` are Booleans, the expression ``x and y`` will only be ``True`` if both ``x`` and ``y`` are ``True``. 
-``x or y`` will only be ``True`` if at least one of them is ``True``. 
+Booleans can also be combined using the ``and`` and ``or`` keywords.
+If ``x`` and ``y`` are Booleans, the expression ``x and y`` will only be ``True`` if both ``x`` and ``y`` are ``True``.
+``x or y`` will only be ``True`` if at least one of them is ``True``.
 And of course, ``not x`` will just be the opposite of ``x``.
 
 We practiced evaluating Booleans using cards and complex conditions (suite == hearts and not number <= 5).
@@ -56,7 +37,7 @@ We practiced evaluating Booleans using cards and complex conditions (suite == he
 If Statements
 *************
 
-``if`` statements are comprised of two ingredients: a condition (which must evaluate or be a boolean), and some code. 
+``if`` statements are comprised of two ingredients: a condition (which must evaluate or be a boolean), and some code.
 Python checks if the condition is True; if it is, the code will be executed.
 But if the condition is False, Python will just ignore the code and move on.
 
@@ -66,8 +47,8 @@ If statements kind of resemble a paragraph - the condition goes at the top, and 
 		do some code
 		do some more code
 	back to normal code
-	
-The computer knows when the ``if`` statement paragraph ends because the indentation stops. 
+
+The computer knows when the ``if`` statement paragraph ends because the indentation stops.
 That's the only way it will know!
 
 If-Elif-Else
@@ -87,14 +68,14 @@ If Statement:
 ::
 	if x == 5:
 		print("x is 5!")
-		
+
 If-Else Statement:
 ::
 	if x == "Penny":
 		print("Your name is Penny!")
 	else:
 		print("Looks like your name isn't Penny!")
-		
+
 If-Elif-Else Statement:
 ::
 	if age == 50:
@@ -105,8 +86,8 @@ If-Elif-Else Statement:
 		print("You're a kid!")
 	else:
 		print("I wonder how old you are?")
-		
-You can put in however many  "elif" portions you want. The computer will just go through each of the conditions, one after another, until it finds one that's True. 
+
+You can put in however many  "elif" portions you want. The computer will just go through each of the conditions, one after another, until it finds one that's True.
 Then, it will skip the rest of the paragraph. And if none of the conditions are True, it will do whatever is written under the "else" section.
 
 
@@ -119,10 +100,10 @@ Say you wanted to print someone's name 10 times (kind of a ridiculous example). 
 ::
 	for i in range(10):
 		print("Cinder")
-		
+
 That's it! If you execute this code in Python (easier to type it into PyCharm than the shell), it will print out "Cinder" ten times in a row.
 
-Breaking it down: 
+Breaking it down:
 
 - ``for`` is a special keyword - when Python sees it, it knows we'll be repeating some code
 - ``i`` is just a variable, just like ``x`` or ``username``
@@ -143,8 +124,8 @@ So you can also do something like this:
 
 This will print 0, 1, 2, 3, and 4, because the code will execute 5 times, and each time, ``i`` has a different value!
 
-For loops can be tricky to wrap your head around. The best thing to do is to use the above two examples, copy them into PyCharm, and verify that they work. 
-Then try changing the number in range(), and also change around what happens in the indented text. 
+For loops can be tricky to wrap your head around. The best thing to do is to use the above two examples, copy them into PyCharm, and verify that they work.
+Then try changing the number in range(), and also change around what happens in the indented text.
 The best way to practice new coding techniques is to try it yourself
 
 
@@ -194,7 +175,7 @@ Trinkets
 .. raw:: html
 
 	<iframe src="https://trinket.io/embed/python/59941a36dd" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-	
+
 
 
 Extra Turtle Challenge: Specific Coordinates
