@@ -1,7 +1,7 @@
 [Week 1] Hello World
 ===================
 
-Reminder: if you have any difficulty, email me at bmcmahan@njgifted.org with questions!
+Reminder: if you have any difficulty, email me at teacher@njgifted.org with questions!
 **Failing is good.  Failing silently is bad.**
 
 Summary
