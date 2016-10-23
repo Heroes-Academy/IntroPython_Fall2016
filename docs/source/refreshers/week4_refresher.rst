@@ -143,8 +143,24 @@ In pycharm and most python editors, hitting tab will just add 4 spaces.
 Getting Input from Users
 ************************
 
-You can use the :code:`input`
+You can use the :code:`input` to get information from the user.
+Try the following.  What is missing?
 
+.. code-block:: python
+    :linenos:
 
-Exercises
----------
+    print("My Menu: ")
+    print("\t 1. Option 1")
+    print("\t 2. Option 2")
+    print("\t 3. Option 3")
+    x = input("What option do you choose?")
+    # placeholder
+    if x == 1:
+        print("x is 1")
+    elif x == 2:
+        print("x is 2")
+    elif x == 3:
+        print("x is 3")
+    else:
+        print("I'm not sure what x is")
+
