@@ -4,7 +4,26 @@
 Summary
 -------
 
-To come after class.
+We reviewed how to use strings and input.  We specifically covered indexing and slicing. Make sure you remember these!
+
+We then covered boolean variables and how to combine them.  
+You can use boolean variables in if-elif-else statements, which can be used to create conditional code. 
+
+As bonus material, we covered turtles and for loops. I will cover both more in depth next week. 
+
+Homework
+--------
+
+1. Do one of the turtle design options:
+  - Draw a face
+  - Draw your initials
+  - Draw something creative
+2. Use inputs to make a menu!
+  - a basic menu with a joke
+  - a two-level menu with two jokes!
+3. Break things!
+  - Write down what happened and what the error was!
+
 
 Review
 ------
