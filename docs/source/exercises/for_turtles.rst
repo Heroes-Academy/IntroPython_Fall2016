@@ -17,6 +17,7 @@ Basic turtle setup:
 
     ### then, create a turtle!
     bob = turtle.Turtle()
+    bob.speed('fastest')
 
     ### do stuff with the turtle
     # for example, a triangle!
@@ -137,4 +138,4 @@ Do the following:
 2. use a second for loop inside the main for loop to make each turtle move
 ::
     for t in turtle_list:
-
+        # code here

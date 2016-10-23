@@ -126,7 +126,7 @@ Boolean variables can be combined using the special boolean keywords
 
 Code blocks let you group code.  In python, they are created with 4 spaces.
 In pycharm and most python editors, hitting tab will just add 4 spaces.
-:p:`if` statements use code blocks.
+:code:`if` statements use code blocks.
 
 .. code-block:: python
     :linenos:
@@ -136,7 +136,8 @@ In pycharm and most python editors, hitting tab will just add 4 spaces.
     if x > y:
         print("X is bigger!")
 
-:code:`if` statements can be expanded using :code:`elif`.  :code:`elif` will only be used if the first :code:`if` is false.
+:code:`if` statements can be expanded using :code:`elif`.  
+:code:`elif` will only be used if the first :code:`if` is false.
 (hidden question: What needs to be put into the placeholder to make the above code work?)
 
 .. code-block:: python
