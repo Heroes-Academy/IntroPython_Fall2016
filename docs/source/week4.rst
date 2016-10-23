@@ -8,6 +8,11 @@ Refresher
 :doc:`Check out the new refresher page! <refreshers/week4_refresher>`
 
 
+In class Exercises
+------------------
+
+:doc:`Link! <exercises/for_turtles>`
+
 Review
 ------
 
