@@ -1,6 +1,8 @@
 Fors and Turtles!
 ================
 
+`Link to turtle cheatsheet <https://github.com/Heroes-Academy/IntroPython_Fall2016/blob/master/code/week04/Turtles%20Cheat%20Sheet.pdf>`_
+
 For this exercise, you will use a single turtle in more complex situations:
 
 1. In a for loop using :code:`range`
