@@ -5,7 +5,7 @@
 Refresher
 ---------
 
-:doc:`Check out the new review page! <refreshers/week4_refresher>`
+:doc:`Check out the new refresher page! <refreshers/week4_refresher>`
 
 
 Review

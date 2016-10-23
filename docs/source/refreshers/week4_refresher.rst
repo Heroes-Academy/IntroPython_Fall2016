@@ -1,10 +1,6 @@
 Week 4 Refresher
 ================
 
-
-.. role:: p(code)
-    :language: python
-
 Let's refresh your memory!
 First, read the reminders about syntax.
 Then, complete the exercises!
@@ -20,6 +16,7 @@ There are four basic variable types
 
 .. code-block:: python
     :linenos:
+
     x = 5     # int
     x = 5.0   # float
     x = "5"   # str
@@ -29,6 +26,7 @@ You can convert between types
 
 .. code-block:: python
     :linenos:
+
     y = "5"       # a string variable
     x = int(y)    # convert to integer
     x = float(y)  # convert to float
@@ -38,6 +36,7 @@ There are 7 math operator types
 
 .. code-block:: python
     :linenos:
+
     x = 10
     y = 2
     x + y
@@ -52,6 +51,7 @@ There are shortcuts for math operators.  The following pairs of statements have 
 
 .. code-block:: python
     :linenos:
+
     x = x * y
     x *= y
 
@@ -80,6 +80,7 @@ There are boolean variables
 
 .. code-block:: python
     :linenos:
+
     x = True
     x = False
 
@@ -87,6 +88,7 @@ Variables can be compared to create boolean variables
 
 .. code-block:: python
     :linenos:
+
     x = 42
     y = 41
     x == y
@@ -100,6 +102,7 @@ Boolean variables can be combined using the special boolean keywords
 
 .. code-block:: python
     :linenos:
+
     x = True
     y = False
     z1 = x and y
@@ -113,16 +116,18 @@ In pycharm and most python editors, hitting tab will just add 4 spaces.
 
 .. code-block:: python
     :linenos:
+
     x = 10
     y = 9
     if x > y:
         print("X is bigger!")
 
-`if` statements can be expanded using `elif`.  `elif` will only be used if the first `if` is false.
+:code:`if` statements can be expanded using :code:`elif`.  :code:`elif` will only be used if the first :code:`if` is false.
 (hidden question: What needs to be put into the placeholder to make the above code work?)
 
 .. code-block:: python
     :linenos:
+
     x = "3"
     # placeholder
     if x == 1:
@@ -138,7 +143,7 @@ In pycharm and most python editors, hitting tab will just add 4 spaces.
 Getting Input from Users
 ************************
 
-You can use the `input`
+You can use the :code:`input`
 
 
 Exercises
