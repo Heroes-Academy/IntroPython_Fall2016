@@ -1,11 +1,11 @@
-[Week 4] Turtles and For Loops
+[Week 4]: Turtles and For Loops
 =============================
 
 
 Refresher
 ---------
 
-:doc:`Check out the new review page! <refreshers/week4_refresher.rst>`
+:doc:`Check out the new review page! <refreshers/week4_refresher>`
 
 
 Review
