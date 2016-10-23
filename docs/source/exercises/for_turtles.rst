@@ -87,6 +87,7 @@ Modify the code in Exercise 2 so that:
     - when :code:`i` is a multiple of both
         - turn the turtle color3
         - make the turtle write "fizz buzz"
+    - else, make the turtle black and write nothing. 
     
 
 
