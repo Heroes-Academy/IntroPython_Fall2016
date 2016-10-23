@@ -5,7 +5,7 @@ Day 4: Turtles and For Loops
 Refresher
 ---------
 
-`Check out the new review page! <week4_refresher.rst>`
+:doc:`Check out the new review page! <refreshers/week4_refresher.rst>`
 
 
 Review
