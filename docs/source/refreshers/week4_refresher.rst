@@ -52,25 +52,39 @@ There are shortcuts for math operators.  The following pairs of statements have 
 .. code-block:: python
     :linenos:
 
-    x = x * y
-    x *= y
+    x = 5
+    y = 3
+    # x = x + y
+    x += y
 
-    x = x - y
+    x = 5
+    y = 3
+    # x = x - y
     x -= y
 
-    x = x * y
+    x = 5
+    y = 3
+    # x = x * y
     x *= y
 
-    x = x / y
+    x = 5
+    y = 3
+    # x = x / y
     x /= y
 
-    x = x // y
+    x = 5
+    y = 3
+    # x = x // y
     x //= y
 
-    x = x ** y
+    x = 5
+    y = 3
+    # x = x ** y
     x **= y
 
-    x = x % y
+    x = 5
+    y = 3
+    # x = x % y
     x %= y
 
 Booleans and Comparisons
