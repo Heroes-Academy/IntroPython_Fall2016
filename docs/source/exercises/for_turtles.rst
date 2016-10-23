@@ -84,7 +84,10 @@ Modify the code in Exercise 2 so that:
     - when :code:`i` is a multiple of 5
         - turn the turtle color2
         - make the turtle write "buzz"
-    - when :code:`i` is a multiple of both, it turns color3
+    - when :code:`i` is a multiple of both
+        - turn the turtle color3
+        - make the turtle write "fizz buzz"
+    
 
 
 Bonus Exercise 1
