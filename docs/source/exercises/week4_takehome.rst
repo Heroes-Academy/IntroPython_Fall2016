@@ -109,3 +109,10 @@ For fun, you could make the pen go up and just stamp:
         bob.stamp()
         bob.forward(200)
         bob.left(90)
+        
+        
+This leads to fun things like these:
+
+.. image:: robot1.png
+
+.. image:: robot2.png
