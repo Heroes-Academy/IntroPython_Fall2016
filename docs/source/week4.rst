@@ -1,6 +1,7 @@
 [Week 4]: Turtles and For Loops
 =============================
 
+`Turtles cheat sheet <https://github.com/Heroes-Academy/IntroPython_Fall2016/blob/master/code/week04/Turtles%20Cheat%20Sheet.pdf>`_
 
 Refresher
 ---------
@@ -12,6 +13,13 @@ In class Exercises
 ------------------
 
 :doc:`Link! <exercises/for_turtles>`
+
+
+Take home exercises
+-------------------
+
+:doc:`Link to exercises <exercises/week4_takehome>`
+
 
 Review
 ------
@@ -58,7 +66,6 @@ There are many things you can do:
     bob.penup() # stop drawing when the turtle moves
     bob.pendown() # start drawing again
 
-You can see a full list at the python website.  There is a link in day 3, but as a challenge, see if you can google and find it!
 
 
 Lecture Slides
