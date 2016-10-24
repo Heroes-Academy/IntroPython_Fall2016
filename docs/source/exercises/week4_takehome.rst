@@ -77,12 +77,11 @@ Gifs with Turtles
 Using the gifs with turtles requires that you have a gif file in the same folder as your python file. 
 If you started a project in pycharm, it should have made you select a folder, and therefore you know where your python file is at. 
 
-One way to find good gifs is use to `google's advanced image search <https://www.google.com/advanced_image_search?hl=en&fg=1>`_
-There is a "file type" option. Use it to select gif.  
-I would recommend also selecting "icon" under "image size" as well. Then, search for whatever you want! 
-I searched for robots and I found this one. 
+One way to find good gifs is use to `google's advanced image search <https://www.google.com/advanced_image_search?hl=en&fg=1>`_.
+    - There is a "file type" option. Use it to select gif.  
+    - I would recommend also selecting "icon" under "image size" as well. Then, search for whatever you want! 
 
-Note that the movement won't be shown in turtles!  Only the first frame.
+I searched for robots and I found the one below.  Note that for animated gifs, the animation won't be shown!  Only the first frame.
 
 .. image:: robot.gif
 
