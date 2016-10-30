@@ -39,7 +39,7 @@ Finish the following code so that it tests for X being a modulo 2, 3, 4, 5, and 
 
 
 .. code-block:: python
-    :linepos:
+    :linenos:
 
     x = input("Give me any whole number: ")
     
