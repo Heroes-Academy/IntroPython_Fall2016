@@ -177,17 +177,17 @@ How complex can you make it?
 	nouns = ["rabbit", "tortiose", "gorilla"]
 	keep_going = True
 	while keep_going:
-	   pick1 = random.choice(adjectives)
-	   pick2 = random.choice(nouns)
-	   print("you are a {} {}".format(pick1, pick2))
-	   answer = input("Keep going? (yes/no) ")
-	   keep_going = answer == "yes"
-	   # alternate version:
-	   # keep_going = (input("Keep going? (yes/no) ") == "yes")
-	   # alternate version:
-	   # if answer == "yes":
-	   #    keep_going = True
-       # else:
-       #    keep_going = False
-       # why is the way I did it a good way to do it? 
+        pick1 = random.choice(adjectives)
+        pick2 = random.choice(nouns)
+        print("you are a {} {}".format(pick1, pick2))
+        answer = input("Keep going? (yes/no) ")
+        keep_going = answer == "yes"
+        # alternate version:
+        # keep_going = (input("Keep going? (yes/no) ") == "yes")
+        # alternate version:
+        # if answer == "yes":
+        #    keep_going = True
+        # else:
+        #    keep_going = False
+        # why is the way I did it a good way to do it? 
 	print("goodbye!")
