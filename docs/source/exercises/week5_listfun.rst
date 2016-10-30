@@ -67,6 +67,7 @@ You can also use a for loop to loop over each of the things.
 
 .. code-block:: python
     :linenos:
+    
     test = ['this', 'is', 'cool']
     for item in test:
         print(item)
@@ -80,7 +81,8 @@ Exercise 4: Looping with While
 A while loop will keep doing things until you tell it to stop!
 
 .. code-block:: python
-    :linepos:
+    :linenos:
+    
     done = False
     
     while not done:
@@ -117,12 +119,15 @@ To guess a random number, you can use the :code:`random` package
 At the top of your code, put: 
 
 .. code-block:: python
+    :linenos:
 
     import random
     
 Then, when you want to select the number, do:
 
 .. code-block:: python
+    :linenos:
+
     low = 0
     high = 100
     correct_number = random.randint(low, high)
@@ -165,6 +170,7 @@ You can play with generating different "patterns" of sentences:
 How compelx can you make it?
 
 .. code-block:: python
+    :linenos:
 
 	import random
 	adjectives = ["super", "silly", "evil", "furry"]
