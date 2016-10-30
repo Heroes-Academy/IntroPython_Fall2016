@@ -167,7 +167,7 @@ You can play with generating different "patterns" of sentences:
 3. NOUN is ADJECTIVE. 
     - Cheese is stinky. 
     
-How compelx can you make it?
+How complex can you make it?
 
 .. code-block:: python
     :linenos:
