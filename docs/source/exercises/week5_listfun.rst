@@ -7,7 +7,7 @@ Exercise 1: Basic List
 ----------------------
 
 .. code-block:: python
-    :linepos:
+    :linenos:
     
     students = list()
     students.append('John')
@@ -27,7 +27,7 @@ Exercise 2: Adding to the list
 ------------------------------
 
 .. code-block:: python
-    :linepos:
+    :linenos:
 
     fav_things = list()
     
@@ -42,7 +42,7 @@ Exercise 3: Looping over a list
 -------------------------------
 
 .. code-block:: python
-    :linepos:
+    :linenos:
 
     fav_things = list()
     
