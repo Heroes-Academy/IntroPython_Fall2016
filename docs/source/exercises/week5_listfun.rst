@@ -60,6 +60,19 @@ The :code:`for` loop allows me to loop over the exact integers that can index in
 
 Modify the code so that :code:`fav_things` is being indexed inside the loop and printed out.
 
+Exercise 3 part 2
+-----------------
+
+You can also use a for loop to loop over each of the things. 
+
+.. code-block:: python
+    :linenos:
+    test = ['this', 'is', 'cool']
+    for item in test:
+        print(item)
+        
+Use this style of loop to print out your favorite things.
+
 
 Exercise 4: Looping with While
 ------------------------------
@@ -86,6 +99,8 @@ Then, add these favorite things to a list!
 This is basically the same code as before, you are just using :code:`append` to add new things. 
 The only difference is now it is inside the :code:`while`.
 
+After the :code:`while` loop finishes, use a :code:`for` loop to 
+print the list!
 
 Exercise 5: Higher or Lower
 ---------------------------
