@@ -1,36 +1,16 @@
 Day 5: Collections and Loops
 =============================
 
-Take home work
--------------
+Refresher
+---------
 
-1. Play with the turtles more. On Monday, we will have a vote on who has the best design or coolest turtle.
-	- you should also be practicing your for loops!
-	- take the numbers out of the loops by replacing them with variables
-	- having is so that the variables are set at the top of the file
-	- then you can change the variables in one place and change the behavior!
-2. Put multiple turtles into a list and use a for loop over that list to do the same thing to multiple turtles at once!
-3. Play the guessing game using a while loop.
-	- The computer guesses a number
-	- The user has to guess until they are right
-	- The computer tells the user higher or lower
-	- The computer counts how many guesses it took
-4. Play with the following code, using your own options. You could even add more lists!
-::
-	import random
-	adjectives = ["super", "silly", "evil", "furry"]
-	nouns = ["rabbit", "tortiose", "gorilla"]
-	keep_going = True
-	while keep_going:
-	   pick1 = random.choice(adjectives)
-	   pick2 = random.choice(nouns)
-	   print("you are a {} {}".format(pick1, pick2))
-	   answer = input("Keep going? (yes/no) ")
-	   keep_going = answer == "yes"
-	   # alternate version:
-	   # keep_going = (input("Keep going? (yes/no) ") == "yes")
-	print("goodbye!")
+See :doc:`this page for the refresher! <refreshers/week5_refresher>`
 
+
+Exercises
+---------
+
+See :doc:`this page for some exercises! <exercises/week5_listfun>`
 
 
 Review
