@@ -10,7 +10,7 @@ Verify your answers using python.
 Remember that you can use "type(x)" in the iPython shell to figure out the variable type. 
 
 .. code-block:: python
-    :linepos:
+    :linenos:
 
     x = 10
     x = 5.2
