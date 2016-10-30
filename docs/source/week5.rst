@@ -1,4 +1,4 @@
-Day 5: Collections and Loops
+[Week 5]: Collections and Loops
 =============================
 
 Refresher
