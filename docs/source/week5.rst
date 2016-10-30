@@ -13,6 +13,8 @@ Exercises
 See :doc:`this page for some exercises! <exercises/week5_listfun>`
 
 
+Bonus: :doc:`Dictionary exercises! <exercises/week5ish_dictionaries>`
+
 Review
 ------
 
