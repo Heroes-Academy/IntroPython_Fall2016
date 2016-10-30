@@ -12,7 +12,7 @@ Exercise 1: Basic List
     students = list()
     students.append('John')
     students.append('Jenna')
-    students.append('Rachel')
+    students.append('Rachael')
     students.append('Isabel')
     
     num_students = len(students)
