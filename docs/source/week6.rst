@@ -1,4 +1,4 @@
-Week 6: Basic Functions
+[Week 6]: Basic Functions
 ======================
 
 Refresher
