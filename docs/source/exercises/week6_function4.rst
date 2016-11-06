@@ -78,6 +78,7 @@ You should write the rest for **left**, **right**, and **down**.
 
 .. code-block:: python
     :linenos:
+    
     screen = turtle.screen()
     
     bob = make_turtle()
