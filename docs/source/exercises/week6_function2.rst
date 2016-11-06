@@ -35,7 +35,7 @@ To accept more than one argument, we simply list the variables an use commas!
     def print_more(__, ____)
         ## print both of the variables separately
         
-    print_more("Hello World",  "It is a great day!"
+    print_more("Hello World",  "It is a great day!")
     
 .. code-block:: python
     :linenos:
@@ -72,7 +72,7 @@ and make sure each one works before writing the next.
         ## greet the person!
         
     
-    green("Dr. Euclid Von Rabbitstein")
+    greet("Dr. Euclid Von Rabbitstein")
         
     def compute_fizzbuzz(n):
         ## write the if statement for fizz buzz!
@@ -108,10 +108,10 @@ The difference is that you can choose not to specify some variables.
     def print_n(message, n=10):
         ### use the same for loop you had above to print the message n times
         
-    print("[1] Functions are awesome!")
-    print("[2] Functions are awesome!", 3)
+    print_n("[1] Functions are awesome!")
+    print_n("[2] Functions are awesome!", 3)
     ### notice how i specifically specify the n in this next one
-    print("[3] Functions are awesome!", n=3)
+    print_n("[3] Functions are awesome!", n=3)
 
 For this next one, I have left out all parts of the argument specification. 
 You have to write it.  I have written the code.  There are two needed variables:

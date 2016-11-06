@@ -29,6 +29,7 @@ __ HeroesSite_
 
    info
    installing
+   installminecraft
    resources
 
 .. toctree::
