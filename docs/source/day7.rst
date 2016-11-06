@@ -20,7 +20,7 @@ So, your take home work is the following:
 	- **REMEMBER**: while inside a class function, it can only see *self* and the arguments passed to it!
 3. Rewrite one of your previous designs with functions. 
 	- This could mean putting the ENTIRE thing into a function
-	- It could mean taking a part of your design and turning it into a function then using that functin
+	- It could mean taking a part of your design and turning it into a function then using that function
 4. **Optional**: Incorporate more random choice into your turtle designs
 ::
 	import random
