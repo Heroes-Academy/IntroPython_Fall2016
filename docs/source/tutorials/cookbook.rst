@@ -644,6 +644,32 @@ Returns a value
         return 2*x
 
 
+Takes two arguments
+^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: python
+    :linenos:
+    
+    def exp_func(x, y):
+        result = x ** y
+        return result
+    
+    final_number = exp_func(10, 3)
+    
+Takes keyword arguments
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: python
+    :linenos:
+    
+    def say_many_times(message, n=10):
+        for i in range(n):
+            print(message)
+    
+    say_many_times("Hi!", 2)
+    say_many_times("Yay!", 10)
+
+
 Time module
 -----------
 
@@ -680,3 +706,42 @@ Using time.sleep(n) to wait for n seconds
     end = time.time()
 
     print(start - end)
+
+
+Random Module
+-------------
+
+Generate a random number between 0 and 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: python
+    :linenos:
+
+    import random
+    
+    num = random.random()
+    print("the random number is {}".format(num))
+
+Generate a random number between two integers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: python
+    :linenos:
+
+    import random
+    
+    num = random.randint(5, 100)
+    print("the random integer between 5 and 100 is {}".format(num))
+
+Select a random item from a list
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: python
+    :linenos:
+
+    import random
+    
+    my_pets = ['euclid', 'leta']
+    fav_pet = random.choice(my_pets)
+    print("My randomly chosen favorite pet is {}".format(fav_pet))
+    

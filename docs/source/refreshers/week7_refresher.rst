@@ -17,7 +17,7 @@ Requirements:
     - The outer :code:`for` loop should start at 1 and go to 20.
     - The inner :code:`for` loop should start at 1 and go to 10.
 2. Before both :code:`for` loops, create an empty :code:`list`.
-3. Inside the inner :code:`for` loop, multiple the two loop variables.
+3. Inside the inner :code:`for` loop, multiply the two loop variables.
     - if you aren't sure what I mean by "loop variable", check the cookbook.
 4. Check if the resulting number is inside the list yet.
     - If you aren't sure what I mean by "is inside", check the :code:`list` part of the cookbook
