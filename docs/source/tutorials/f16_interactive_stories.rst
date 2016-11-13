@@ -189,6 +189,7 @@ Optional: Using functional programming
 Remember, functions are values too.  You can use this to your advantage.
 
 .. code-block:: python
+
     def get_name(state_dictionary):
         name = input("What is your name? ")
         state_dictionary['name'] = name

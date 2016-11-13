@@ -10,12 +10,6 @@ Refresher
 At the start of class, you will be working on the refresher:
 :doc:`refresher link <refreshers/week7_refresher>`
 
-Exercises
----------
-
-Today, there are only a couple exercises involving dictionaries and using functions as values.
-You can find them by :doc:`clicking here <exercises/week7>`
-
 Projects
 --------
 
