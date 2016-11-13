@@ -43,6 +43,12 @@ __ HeroesSite_
    week5
    week6
    week7
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Tutorials
+   
+   exercises/index.rst
 
 ..
    day3
