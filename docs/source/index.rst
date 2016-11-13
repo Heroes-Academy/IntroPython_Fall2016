@@ -30,6 +30,7 @@ __ HeroesSite_
    info
    installing
    installminecraft
+   installingpygame
    resources
 
 .. toctree::
@@ -48,7 +49,7 @@ __ HeroesSite_
    :maxdepth: 1
    :caption: Tutorials
    
-   exercises/index.rst
+   tutorials/index.rst
 
 ..
    day3

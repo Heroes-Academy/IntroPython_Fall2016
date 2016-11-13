@@ -1,4 +1,4 @@
-Exercises
+Tutorials
 =========
 
 .. toctree::
