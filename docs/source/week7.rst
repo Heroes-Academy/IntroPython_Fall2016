@@ -1,79 +1,75 @@
+[Week 7] Advanced collections and functions
+===========================================
+
+I have written up a cookbook for you all to use in solving problems!
+You can find it by :doc:`clicking here <tutorials/cookbook>`
+
+Refresher
+---------
+
+At the start of class, you will be working on the refresher:
+:doc:`refresher link <refreshers/week7_refresher>`
+
+Exercises
+---------
+
+Today, there are only a couple exercises involving dictionaries and using functions as values.
+You can find them by `clicking here <exercises/week7>`.
+
+Projects
+--------
+
+When you finish exercises, and over the week, you should be working on your projects.
+I have written a couple tutorials to assist you in accomplishing them:
+
+1. :doc:`Minecraft Architect <tutorials/f16_minecraft_architect>`
+2. :doc:`Interactive Stories <tutorials/f16_interactive_stories>`
+3. :doc:`Animation <tutorials/f16_animation>`
+
+
+
+Content wise, we will cover dictionaries first.
+
+Then, I will talk about functions as values.
+
+to illustrate, use map and filter
+
+
+Finally, i will briefly introduce the various projects and them start to go over that.
+
+
+to reiterate:
+
+1. Refresher + introduce cookbook
+2. dictionaries
+3. functional ideas
+4. maybe simple classes as storage containers
+5. projects
+
+
+
+
+
+
+
+
+
 Day 7: More Functions and Intro to Minecraft
 =============================================
 
 Take Home Work
 --------------
 
-Today, we covered functions that return arguments and classes. We briefly looked at vectors in Minecraft as well. 
-
-So, your take home work is the following:
-
-1. Think about your project.  Come to class with the following:
-	- Your goal
-	- A brief initial plan
-	- Any difficulties you think will happen
-	- Your predictions for how far you think you will get
-2. Continue to work on the class you started
-	- Get at least 5 functions working for your class
-	- At least one should take an argument
-	- At least one should return a value
-	- **REMEMBER**: while inside a class function, it can only see *self* and the arguments passed to it!
-3. Rewrite one of your previous designs with functions. 
-	- This could mean putting the ENTIRE thing into a function
-	- It could mean taking a part of your design and turning it into a function then using that function
-4. **Optional**: Incorporate more random choice into your turtle designs
-::
-	import random
-	anumber = random.randint(0,10)
-	somechoice = random.choice(['red', 'white', 'blue'])
 
 
 Review
 ------
 
-Below is review information for Minecraft, Functions that return results, and classes.
 
-If you are looking to install the minecraft libraries, check here:  :doc:`installminecraft`
-
-Minecraft Overview
-******************
-
-Primarily, you can do the following things with the library
-
-1. Move the player
-2. Get the player's location
-3. Set blocks
-4. Get block information
-
-There are many things you can do with this. 
-
-**Resources and Links**
-
-1. `A list of the commands you can do with mcpi <http://www.stuffaboutcode.com/p/minecraft-api-reference.html>`_
-2. `The Learn to program with Minecraft book <https://www.nostarch.com/programwithminecraft>`_
-
-
-Functions with Return Statements
-********************************
-Last week, we only talked about functions that take input arguments and print things. But what if we wanted to write a function that returns a value you can put in a variable?
-
-The answer is a **return** statement. At the end of a function, use a return statement to have the function spit out a particular value. Then, when you call that function, you can put the returned value in some variable. 
-
-Here's an example:
-::
-	def addition_func(x, y):
-		result = x + y
-		return result
-
-Then, if you want to call this function, you can do this:
-::
-	the_sum = addition_func(10, 15)
-	
-We call the function, and put the return value into the ``the_sum`` variable.
 
 Python Classes
 **************
-Finally, we learned the basics of defining and using our own custom-made object classes. The basic idea behind **defining** a class is that you're writing a recipe for a particular type of object. you can think of it like this: if you have a room full of chairs, each of those chairs is a chair object, but "chair" would be the name of the class. 
+Finally, we learned the basics of defining and using our own custom-made object classes. The basic idea behind **defining** a class is that you're writing a recipe for a particular type of object. you can think of it like this: if you have a room full of chairs, each of those chairs is a chair object, but "chair" would be the name of the class.
 
 After you've defined a class (written your recipe), you can use it to make copies of your custom-made object in code. The Lecture Slides have example code in case you forget!
 
@@ -83,15 +79,15 @@ See the "Extra Resources" section for examples. In short, the proper syntax is t
 		property_a = value_a
 		property_b = value_b
 		property_c = value_c
-		
+
 		def some_class_function(self)
 			<code>
 			<code>
 			<code>
-			
-Remember, classes have two very important features in Python: **properties**, which are details about the object that describe it, and **functions**, which are things that the object can **do**. 
 
-For example, a ``Dog`` object in Python might have the properties ``name``, ``age``, ``height``, etc., and functions like ``run(self)``, ``bark(self)``, and ``fetch(self)``. Remember that when you're defining functions inside an object, you need to make the first argument (the first thing in the parentheses) the keyword ``self``, which tells Python, "this function belongs to this object type." 
+Remember, classes have two very important features in Python: **properties**, which are details about the object that describe it, and **functions**, which are things that the object can **do**.
+
+For example, a ``Dog`` object in Python might have the properties ``name``, ``age``, ``height``, etc., and functions like ``run(self)``, ``bark(self)``, and ``fetch(self)``. Remember that when you're defining functions inside an object, you need to make the first argument (the first thing in the parentheses) the keyword ``self``, which tells Python, "this function belongs to this object type."
 
 Similarly, inside of a class's function, if you want to reference one of that class's properties, you also need to use the ``self`` keyword. So, in the ``bark(self)`` function for a dog, if you wanted to print its name, it would look like this:
 ::
