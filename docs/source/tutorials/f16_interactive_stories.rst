@@ -224,3 +224,43 @@ Remember, functions are values too.  You can use this to your advantage.
         go_to_next(state)
 
 
+Optional: Use classes to handle state
+-------------------------------------
+
+The basic idea is to create a generic class which will handle the current information.
+It is also useful to have it handle the transition information: which state should it go to next.
+You can do this in several different ways. One way is shown below. 
+
+.. code-block:: python
+    :linenos:
+    
+    class State:
+        def __init__(self, room):
+            ## create all initial forms of the variables here
+            self.room = room
+            self.next_room = None
+            
+        def set_next_room(self, next_room)
+            self.next_room = next_room
+
+    kitchen = State("kitchen")
+    hallway = State("hallway")
+    kitchen.set_next_room(kitchen)
+
+    
+    current_place = kitchen
+    
+    game_over = False
+    while not game_over:
+        print("You are in the {}".format(current_place.room))
+        some_input = input("What do you say? ")    
+        
+        
+        ## do something that changes stuff and maybe go to the next room
+        if current_place.next_room is not None:
+            current_place = current_place.next_room
+        
+        
+        
+
+

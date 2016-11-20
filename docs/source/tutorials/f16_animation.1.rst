@@ -215,13 +215,8 @@ You should also answer the following questions:
 4. What variables do you need to represent those changes?
 5. What python syntax is really useful for all of these things?
 
-In addition to the main cookbooks, there are a couple additional cookbooks which you can use:
+There are a couple of cookbooks which you can use:
 
-- :doc:`Simple PyGame cookbook <simple_pygame_cookbook>`
-    - covers pygame examples without using classes
-- :doc:`PyGame with Classes cookbook <pygame_classes_cookbook>` 
-    - covers pygame using classes 
-    - has a lot of functionality explained!
 
 
 
