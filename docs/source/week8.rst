@@ -1,5 +1,5 @@
-Day 8: Classes
-==============
+[Week 8] Classes and Projects
+============================= 
 
 
 Overview
