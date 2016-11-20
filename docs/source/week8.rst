@@ -12,12 +12,14 @@ Then, you will work on your projects.  If you have a project to propose, you wil
 You should work on your projects at home.
 
 
+:doc:`Exercise <exercises/week8_classes>`
+
 Cookbooks
 ---------
 
-- :doc:`Python Cookbook <helpers/cookbook.rst`
+- :doc:`Python Cookbook <helpers/cookbook>`
     - This has examples of most of Python's syntax!
-- :doc:`Classes cookbook <classes_cookbook>`
+- :doc:`Classes cookbook <helpers/classes_cookbook>`
     - This has examples of the basics of classes!
 
 
