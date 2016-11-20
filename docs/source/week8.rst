@@ -17,9 +17,9 @@ You should work on your projects at home.
 Cookbooks
 ---------
 
-- :doc:`Python Cookbook <helpers/cookbook>`
+- :doc:`Python Cookbook <tutorials/cookbook>`
     - This has examples of most of Python's syntax!
-- :doc:`Classes cookbook <helpers/classes_cookbook>`
+- :doc:`Classes cookbook <tutorials/classes_cookbook>`
     - This has examples of the basics of classes!
 
 
