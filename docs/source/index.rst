@@ -45,6 +45,7 @@ __ HeroesSite_
    week6
    week7
    week8
+   week9
    
 .. toctree::
    :maxdepth: 1
